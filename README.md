@@ -14,7 +14,7 @@ When all of that is done, all three rods inside the case are lifted and you can 
 
 ## The technical part:
 The technical part consists of:
-- ESP8266
+- ESP8266 (NodeMCU)
 - Photodiode
 - 3x LiFePo4 (Soshine-1800) battery a 1500mAh(measured)@3,3V
 - 3x 18650 battery case

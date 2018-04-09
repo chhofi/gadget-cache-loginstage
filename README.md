@@ -26,6 +26,7 @@ The ESP powers up and the OLED displays a progress bar. After that a WifiSymbol 
 
 ## Files:
 [Arduino project file](LoginStage/LoginStage.ino)
+
 [Wifi logo for the OLED display](LoginStage/images.h)
 
 

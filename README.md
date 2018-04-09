@@ -1,4 +1,4 @@
-# gadget-cache-loginstation
+# gadget-cache-loginstage
 A gadget cache that is part of a multi stage night-cache.
 
 **The cache is split into two parts: A _physical_ and a _technical_ challenge part.**
@@ -23,6 +23,11 @@ The technical part consists of:
 - Electronic enclosure
 
 The ESP powers up and the OLED displays a progress bar. After that a WifiSymbol appears. Next you have to connect your phone to the wifihotspot the ESP just started sharing. You will get an automatic Captive Portal notification. This will directly point you the the loginpage (On some phones this does´nt work. In that case enter the URL 192.168.1.1 into your browser). There you have to enter your username and password. If successfully entered the Oled display will show another progress par. In the background it will send the batterylevel, the username, and the calculated time remaining till you have to swap batterys to IFTT.com. This service than sends me a notification with all that information via Telegram. 
+
+## Files:
+[Arduino project file](LoginStage/LoginStage.ino)
+[Wifi logo for the OLED display](LoginStage/images.h)
+
 
 
 
